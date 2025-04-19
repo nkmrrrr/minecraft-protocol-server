@@ -1,0 +1,36 @@
+{
+  "name": "minecraft-protocol-server",
+  "version": "0.1.0",
+  "description": "A Minecraft Protocol server implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkmrrrr/minecraft-protocol-server.git"
+  },
+  "keywords": [
+    "minecraft",
+    "protocol",
+    "server"
+  ],
+  "author": "nkmrrrr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkmrrrr/minecraft-protocol-server/issues"
+  },
+  "homepage": "https://github.com/nkmrrrr/minecraft-protocol-server#readme",
+  "dependencies": {
+    "minecraft-protocol": "^1.41.0",
+    "prismarine-chunk": "^1.33.0",
+    "prismarine-entity": "^2.2.0",
+    "prismarine-item": "^1.12.1",
+    "prismarine-physics": "^1.5.1",
+    "vec3": "^0.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
