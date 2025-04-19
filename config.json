@@ -1,0 +1,20 @@
+{
+  "port": 25565,
+  "host": "0.0.0.0",
+  "motd": "Minecraft Protocol Server",
+  "maxPlayers": 20,
+  "worldOptions": {
+    "seed": 123456789,
+    "gameMode": 0,
+    "difficulty": 1,
+    "spawnPoint": {
+      "x": 0,
+      "y": 70,
+      "z": 0
+    }
+  },
+  "logging": {
+    "level": "info",
+    "saveToFile": false
+  }
+}
